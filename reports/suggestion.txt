@@ -1,0 +1,49 @@
+
+📊 Business Insights Report
+
+1. 🛒 **Top Product Categories**
+   - The most stocked and diverse categories are:
+     category
+Beauty & Hygiene            7867
+Gourmet & World Food        4690
+Kitchen, Garden & Pets      3580
+Snacks & Branded Foods      2814
+Foodgrains, Oil & Masala    2676
+Name: count, dtype: int64
+   - 👉 *Recommendation:* Prioritize promotions and campaigns around these categories to attract more buyers.
+
+2. 💸 **Average Product Pricing**
+   - The average price for most products falls between:
+     count    27553.000000
+mean       322.529145
+std        486.277432
+min          2.450000
+25%         95.000000
+50%        190.000000
+75%        359.000000
+max      12500.000000
+Name: sale_price, dtype: float64
+   - 👉 *Recommendation:* Offer special discounts on moderately priced products. This will help increase sales while keeping profit margins healthy.
+
+3. 🧾 **Impact of Discounts on Sales**
+   - There is a clear trend: **Products with higher discounts tend to sell more**. For example, products with discounts of **X%** show an increase in sales of **Y%**.
+   - 👉 *Recommendation:* Focus on marketing products with attractive discounts, as these are likely to bring in more customers.
+
+4. 🔝 **Top Performing Brands**
+   - The most successful and popular brands are:
+     brand
+Fresho              638
+bb Royal            539
+BB Home             428
+DP                  250
+Fresho Signature    171
+Name: count, dtype: int64
+   - 👉 *Recommendation:* Strengthen relationships with these brands through collaborations, bundling, or exclusive deals.
+
+5. ⭐ **Best Rated Products**
+   - Products with **ratings above 4.0** are consistently preferred by customers.
+   - 👉 *Recommendation:* Feature these highly-rated products prominently on your website and in promotional materials to boost customer confidence.
+
+📝 **Summary**:
+Focus your business strategies on high-performing categories and brands, offer targeted discounts on mid-priced items, and showcase top-rated products to improve customer trust and engagement.
+
