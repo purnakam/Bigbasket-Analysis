@@ -20,25 +20,6 @@ An interactive data analytics dashboard built using **Streamlit**, **Plotly**, a
 
 ---
 
-## 📁 Project Structure
-
-bigbasket-analysis/
-│
-├── data/
-│ ├── BigBasket_Products.csv # Raw dataset
-│ └── cleaned_bigbasket.csv # Preprocessed dataset
-│
-├── reports/
-│ └── suggestion.txt # Auto-generated business suggestions
-│
-├── README.md # Project documentation 
-├── dashboard.py # Streamlit app source code
-├── requirements.txt # Python dependencies
-└── steps
-
-
----
-
 ## 🧠 Insights Provided
 
 - Most popular and diverse product **categories**
