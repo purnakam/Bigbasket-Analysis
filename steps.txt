@@ -1,0 +1,39 @@
+- import library
+- read csv
+- info and describe
+- data cleaning : 
+                    1. Drop Redundant Columns
+                    2. Rename Columns for Consistency
+                    3. Missing Values
+                    4. handle missing data :
+                                            a. Drop rows where product or brand is missing
+                                            b. Fill missing ratings with the median
+                                            c. Fill missing descriptions with a placeholder
+                    5. discount and discount percentage
+                    6 add price range buckets
+                    7. save clean data
+
+- Feature engineering :
+                        1. Extract numerical feature from price_range
+                        2. Create boolean flags
+                        3. Text based features from description
+                        4. Aggregate brand and category stats
+                        5. Encoding categorical variables
+
+- EDA :
+        1. Category-wise Product Count (top 10 categories)
+        2. Sub-category distribution with top category
+        3. Top brands
+        4. Price vs Discount %
+        5. Price range distribution
+        6. Rating distribution
+
+- Insights and Suggestion :
+                            1. Top categories
+                            2. Price range analysis
+                            3. Discount effectiveness
+                            4. Brand performance
+                            5 Rating distribution
+                            6. Suggestion summary
+
+- Dashboard using streamlit
