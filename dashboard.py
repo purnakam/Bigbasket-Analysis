@@ -6,8 +6,8 @@ import plotly.express as px
 st.set_page_config(page_title="Big Basket Dashboard", layout="wide")
 
 # --- Load Dataset ---
-df = pd.read_csv(os.path.join("data", "cleaned_bigbasket.csv"))  
-df_original = pd.read_csv(os.path.join("data", "BigBasket_Products.csv"))  
+df = pd.read_csv("data/cleaned_bigbasket.csv")  
+df_original = pd.read_csv("data/BigBasket_Products.csv")  
 
 # --- Data Preprocessing ---
 df["discount_percent"] = ((df["market_price"] - df["sale_price"]) / df["market_price"]) * 100
